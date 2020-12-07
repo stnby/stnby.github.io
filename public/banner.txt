@@ -1,8 +1,0 @@
-                   __
-                -=(o '.
-  Kernal           '.-.\
-  Community        /|  \\
-  2017-ELF��@hV@8  '|  ||
-                   _\_):,_
-  Segmentation fault
-              (core dumped)
