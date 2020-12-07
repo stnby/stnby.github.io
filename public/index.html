@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stnby</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/themes.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <meta name="description" content="I am Laurynas Četyrkinas a FOSS (Free and Open Source Software) developer and enthusiast.">
+    <meta name="generator" content="Hugo 0.79.0" />
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+    <div class="nav">
+        <a class="home" href="https://stnby.kernal.eu/">Stnby</a>
+        <a href="/gallery/">gallery</a>
+        <a href="https://kernal.eu">kernal</a>
+        <a onclick="switchTheme()">theme</a>
+    </div>
+</div>
+
+        <div class="content">
+<h2 id="contact-information-read-my-cvcvpdf">Contact information (<a href="/cv.pdf">Read my CV</a>).</h2>
+<ul>
+<li><strong>name:</strong> Laurynas Četyrkinas</li>
+<li><strong>phone:</strong> <a href="tel:+37060567857">+370 (605) 67 857</a></li>
+<li><strong>email:</strong> <a href="mailto:stnby@kernal.eu">stnby@kernal.eu</a></li>
+<li><strong>web:</strong> <a href="https://kernal.eu">kernal.eu</a></li>
+<li><strong>git:</strong> <a href="https://gitlab.com/stnby">GitLab</a>, <a href="https://github.com/stnby">GitHub</a></li>
+<li><strong>telegram:</strong> <a href="https://t.me/stnby">@stnby</a></li>
+</ul>
+<h2 id="short-info-about-me">Short info about me</h2>
+<p>Sailor, Free and Open Source Software movement activist, developer and system administrator with over 5 years of experience maintaining and experimenting with UNIX like machines. I am a self taught GNU/Linux programmer and computer hacker currently studying <a href="https://www.vu.lt/studijos/stojantiesiems/bakalauro-studiju-sarasas/informacijos-sistemos-ir-kibernetine-sauga-lietuviu-k/"><strong>Information Systems and Cyber Security</strong></a> at <a href="https://www.vu.lt"><strong>Vilnius University</strong></a>.</p>
+<h2 id="projects">Projects</h2>
+<p>Because I still don&rsquo;t have any real work experience here are some of my and my participated projects.</p>
+<h3 id="kchathttpsgitlabcomkernalkchatgit--a-functional-chat-room-server-that-you-can-connect-using-netcat-or-any-tcp-client"><strong><a href="https://gitlab.com/kernal/kchat.git">kChat</a></strong> — A functional chat-room server that you can connect using netcat or any TCP client.</h3>
+<p>A chat-room server that we, along with my colleague have written in C.
+Why? Because IRC was not quite as good. Drop us a message:
+nc <code>chat.kernal.eu 1337</code> or <code>telnet chat.kernal.eu 1337</code>.</p>
+<h3 id="socketbrokerhttpsgitlabcomstnbysocketbrokergit--a-tool-written-in-c-that-lets-you-broker-your-tcp-sockets"><strong><a href="https://gitlab.com/stnby/socketbroker.git">SocketBroker</a></strong> — A tool written in C that lets you broker your TCP sockets.</h3>
+<p>A single-threaded tool written in C that utilizes multiplexing to broker another TCP connection. Check out my NMEA message stream powered by this tool on <code>ais.kernal.eu:5060</code>.</p>
+<h3 id="gomarkovapihttpsgitlabcomstnbygomarkovapigit--a-simple-api-that-generates-double-ended-markov-chains"><strong><a href="https://gitlab.com/stnby/gomarkovapi.git">GoMarkovAPI</a></strong> — A simple API that generates double ended Markov chains.</h3>
+<p>A simple API written in Golang and powered by Redis DB and also Docker containers that generates double ended Markov chains from a given input. (Used as a funny chat bot in my Telegram group)</p>
+<h3 id="kcrafthttpskernaleupostskcraft-minecraft-launcher--a-minecraft-launcher-written-purely-in-posix-shell"><strong><a href="https://kernal.eu/posts/kcraft-minecraft-launcher/">kCraft</a></strong> — A „Minecraft“ launcher written purely in POSIX shell.</h3>
+<p>A fully fledged „Minecraft“ client cramped in a single shell script. Handles asset, version downloads and library extraction.</p>
+<h3 id="kernaleuhttpskernaleu--a-website-and-a-theme-for-kernal-community-powered-by-hugo-static-site-generator"><strong><a href="https://kernal.eu">kernal.eu</a></strong> — A website and a theme for Kernal Community powered by Hugo static site generator.</h3>
+<p>A blog of Kernal Community.</p>
+<h3 id="ffsteghttpsgitlabcomstnbyffsteggit--a-stenography-algorithm-based-around-farbfeld-image-formathttpstoolssucklessorgfarbfeld-without-any-dependencies"><strong><a href="https://gitlab.com/stnby/ffsteg.git">ffsteg</a></strong> — A stenography algorithm based around <a href="https://tools.suckless.org/farbfeld/">Farbfeld image format</a> without any dependencies.</h3>
+<p>University assignment.</p>
+<h3 id="alpinedroidhttpsgitlabcomstnbyalpinedroidgit--alpine-linux-chroot-environment-for-your-android-smart-device"><strong><a href="https://gitlab.com/stnby/alpinedroid.git">AlpineDroid</a></strong> — Alpine Linux chroot environment for your Android smart device.</h3>
+<p>An easy and quick script to create Alpine Linux chroot environment on your rooted Android device.</p>
+<h3 id="tor-balancedhttpsgitlabcomstnbytorbgit--few-simple-scripts-to-create-a-multi-tor-instance-balanced-socks5-proxy"><strong><a href="https://gitlab.com/stnby/torb.git">Tor Balanced</a></strong> — Few simple scripts to create a multi Tor instance balanced SOCKS5 proxy.</h3>
+<p>A way to download large files through Tor quickly.</p>
+<h3 id="ktrackhttpsgitlabcomkernalktrackgit-wip--a-system-to-collect-and-visualize-all-sorts-of-access-point-information-and-location-such-as-wifi-bt-and-lte-towers"><strong><a href="https://gitlab.com/kernal/ktrack.git">kTrack</a> (WIP)</strong> — A system to collect and visualize all sorts of access point information and location. Such as WiFi, BT and LTE towers.</h3>
+
+<ul class="list">
+</ul>
+</div>
+    </div>
+    <script src="/js/theme-switcher.js"></script>
+
+</body>
+</html>
